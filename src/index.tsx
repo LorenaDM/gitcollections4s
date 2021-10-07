@@ -1,10 +1,9 @@
-//importa a biclioteca react
+// importa biblioteca react
 import React from 'react';
-// importra a biblioteca react-dom
+// importa biblioteca react-dom
 import ReactDOM from 'react-dom';
-//importa o prim eiro componente React chamasdo app
+// importa o primeiro componente React chamado App
 import App from './App';
-
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,5 +12,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-//oq o componente App retornará será exibido no elemnto HTML cujo id é root
-
+// o que o componente App retornará será exibido no elemento HTML cujo id é root

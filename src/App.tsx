@@ -1,14 +1,18 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import { Routes } from './routes';
 
-//cRIANDO UM COMPONENTE FUNCIONAL, OU SEJA UMA GFUNÇÃO
-const App: React.FC = () =>  {
- //oq o usuário enxerga
+// criando um componente funcional
+// App é um componente funcional
+
+const App: React.FC = () => {
   return (
-    <>
-    <h1> Hello World</h1>
-    <h2> lOREM INPSUN</h2>
+    <> 
+      {/* aqui definiremos o SPA*/}
+      <BrowserRouter>
+        <Routes/> {/* a chamada de qualquer rota vai aparecer o resultado aqui*/}
+      </BrowserRouter>
     </>
-    //fragmento
   );
 }
 
